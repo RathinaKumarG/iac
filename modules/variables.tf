@@ -1,0 +1,13 @@
+variable "env" {}
+variable "region" {}
+variable "app" {}
+variable "vpc_cidr" {} 
+variable "pub_subnet_1" {}
+variable "pub_subnet_2" {}
+variable "pub_subnet_3" {}
+variable "priv_subnet_1" {}
+variable "priv_subnet_2" {}
+variable "priv_subnet_3" {}
+variable "bastion_ami" {}
+variable "bastion_size" {}
+variable "KeyPair" {}
